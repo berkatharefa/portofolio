@@ -1,0 +1,206 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.header {
+	width: 100%;
+	height: 10%;
+	background-color: #000;
+	display: inline-block;
+	margin-bottom: -8px;
+}
+.logo {
+	width: 30%;
+	float: left;
+	margin-left: 30px;
+}
+.logo img {
+	width: 200px;
+	height: 100%;
+}
+.menu {
+	float: right;
+	margin-right: 30px;
+}
+.menu li {
+	margin-top: 20px;
+	list-style: none;
+	display: inline-block;
+	padding-bottom: 26px;
+}
+.menu li a {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 27px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	color : white;
+}
+.menu li a:hover {
+	background-color: rgba(192,192,192,0.3);
+}
+
+.container {
+	width: 100%;
+}
+.slide {
+	width: 100%;
+}
+.slide img{
+	width: 100%;
+	height: 494px;
+}
+.content {
+	background-color: #28272c;
+	height: 90%;
+	display: inline-block;
+	width: 100%;
+}
+.content_p {
+	background-color: white;
+	height: 500px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: -8px;
+}
+.kiri {
+	float: left;
+	width: 48%;
+}
+.kanan {
+	float: right;
+	width: 48%;
+}
+.lbl_frs {
+	font-size: 16pt;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: white;
+	width: 50%;
+	background-color: #ff531a;
+	padding: 15px;
+	margin-top: 130px;
+	margin-left: 80px;
+}
+.lbl_sknd {
+	color: white;
+	font-family: roboto;
+	width: 80%;
+	background-color: #33cc33;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-left: 80px;
+}
+.btn {
+	margin-top: 30px;
+	margin-left: 80px;
+}
+.btn a{
+	border-radius: 3px 3px 3px 3px;
+	text-decoration: none;
+	color: white;
+	background-color: #5bc0de;
+	border: 1px solid #46b8da;; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-family: Open sans;
+}
+.img {
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	margin-top: 45px;
+	margin-left: 120px; 
+	width: 45%;
+	border: 5px solid #cacaca; 
+}
+.Ket {
+	margin-top: 10px;
+	height: 90px; 
+	margin-left: 50px;
+}
+.nmr {
+	width: 40px;
+	height: 40px;
+	padding-top: 0px;
+	font-size: 16pt;
+	color: white;
+	background-color: #33ff77;
+	border-radius: 50% 50% 50% 50%;
+}
+.nmr2 {
+	width: 40px;
+	height: 40px;
+	padding-top: 0px;
+	font-size: 16pt;
+	color: white;
+	background-color: #80ff80;
+	border-radius: 50% 50% 50% 50%;
+}
+.Ket label {
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 15px;
+	color: black;
+}
+.Ket p {
+	margin-top: -40px;
+	margin-left: 50px;
+	text-align: justify;
+	margin-right: 10px;
+	font-family: roboto;
+}
+.jdl {
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 10px;
+	font-size: 20pt;
+	font-family: roboto;
+	font-weight: bold;
+}
+.tbl {
+	margin-top: 70px;
+}
+.avatar {
+	width: 30px;
+	height: 30px;
+	border-radius: 50% 50% 50% 50%;
+	margin-left: 100px;
+}
+.nm {
+	margin-left: 140px;
+	margin-top: -30px;
+}
+.kontak {
+	margin-left: 100px;
+}
+.kontak td {
+	width: 50%;
+	height: 50px;
+	font-family: roboto;
+}
+.komentar{
+	margin-left: 100px;
+	font-family: roboto;
+}
+.komentar br {
+	margin-bottom: 30px; 
+	margin-top: 15px; 
+}
+.komentar{
+	margin-left: 100px;
+}
+.komentar td {
+	width: 50%;
+}
+.komentra td input {
+	width: 100%;
+}

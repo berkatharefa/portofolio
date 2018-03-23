@@ -1,0 +1,25 @@
+body {
+	background-color: blue;
+}
+h1 {
+	text-align: center;
+}
+hr {
+	width: 700px;
+	color: red;
+}
+p {
+	text-align: justify;
+}
+font {
+	color: red;
+}
+img {
+	width: 400px; 
+}
+table {
+	border: 1px solid #cacaca;
+}
+td{
+	border: 1px solid #cacaca;
+}
