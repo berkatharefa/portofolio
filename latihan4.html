@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html enscape="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Belajar Web</title>
 	<link rel="stylesheet" type="text/css" href="css/style_latihan4.css">
 </head>
@@ -9,24 +10,36 @@
 		<div class="logo">
 			<img src="img/banner1.jpg">
 		</div>
-		<div class="menu">
+		<label for="menu-toggle">
+			<div class="toggle">
+				<div class="line"></div>
+				<div class="line1"></div>
+				<div class="line2"></div>
+			</div>
+		</label>
+		<input type="checkbox" id="menu-toggle">
+		<ul class="menu" id="menu">
 			<li>
 				<a href="#home">Home
 				</a>
 			</li>
 			<li>
-				<a href="#profil">Profil
+				<a href="#profil">Biografi
 				</a>
 			</li>
 			<li>
-				<a href="buku_tamu.html">Buku Tamu
+				<a href="#pendidikan">Pendidikan
 				</a>
 			</li>
 			<li>
-				<a href="kontak.html">Kontak
+				<a href="#hobby">Hobby
 				</a>
 			</li>
-		</div>
+			<li>
+				<a href="#kontak">Kontak
+				</a>
+			</li>
+		</ul>
 	</div>
 	<div class="home" id="home">
 		<div class="kiri">
@@ -43,8 +56,8 @@
 			171111075
 		</div>
 	</div>
-	<div class="profil">
-		<div class="judul" id="profil">PROFIL SAYA</div>
+	<div class="profil profil-80" id="profil">
+		<div class="judul">PROFIL SAYA</div>
 		<div class="sub_judul">Saya Ingin Jadi Programmer</div>
 		<p>
 			Nama saya Berkat Jaya Harefa, saya dari Desa Sisarahili, Kecamatan Namohalu Esiwa, Kabupaten Nias Utara, Provinsi Sumatera Utara. Di Kampung saya masih belum ada jaringan listrik Negara, namun saya bercita-cita untuk menjadi seorang programmer. Saya Sekolah di SD Negeri 071158 Tuhenakhe di Desa saya, SMP Negeri 4 Namohalu Esiwa dan SMK Swasta Pembda Nias di Gunungsitoli. Sekarang saya lagi on-going kuliah di STMIK Mikroskil dengan Jurusan Teknik Informatika. Ini foto saya dari kecil sampai sekarang.
@@ -63,6 +76,76 @@
 				<img src="img/img3.jpg" class="img-profil" alt="Random Name">
 			</div>
 		</div>
+	</div>
+	<div class="pendidikan" id="pendidikan">
+		<div class="judul_pendidikan">
+			Riwayat Pendidikan
+		</div>
+		<div class="circles-list">
+			<ol>
+				<li><span>Taman Kanak-kanak di TK Cerdas.</span></li>
+				<li><span>Sekolah Dasar di SD Negeri 071158 Tuhenakhe, Kecamatan Namohalu Esiwa, Kabupaten Nias Utara, Provinsi Sumatera Utara.</span></li>
+				<li><span>Sekolah Menengah Pertama di SMP Negeri 4 Namohalu Esiwa, Kecamatan Namohalu Esiwa, Kabupaten Nias Utara, Provinsi Sumatera Utara.</span></li>
+				<li><span>Sekolah Menengah Kejuruan di SMK Swasta Pembda Nias, Kota Gunungsitoli, Provinsi Sumatera Utara.</span></li>
+				<li><span>Kuliah di STMIK Mikroskil, Kota Medan, Provinsi Sumatera Utara.</span></li>
+			</ol>
+		</div>
+	</div>
+	<div class="hobby" id="hobby">
+		<div class="judul">
+			MY HOBBY
+		</div>
+		<div class="sub_judul">
+			Sepak Bola
+		</div>
+		<div class="row3">
+			<div class="img-hobby">
+				<img src="img/ball.jpg" class="img-hobby">
+			</div>
+			<p class="p_hobby">
+				Hobby saya adalah bermain sepak bola. Saya dari kecil sudah diajarkan bermain bola oleh abang-abang saya, saya juga pernah ikuti pertandingan sepak bola tingkat sekolah, desa dan kecamatan. Saya termotifasi dari pemain bola terkenal Cristiano Ronaldo, saya sangat suka dengan gaya permainan Cristiano Ronaldo karena selain bertanggung jawab, ia juga bisa mengontrol emosi dan masih banyak lagi. Selain bermain sepak bola saya juga suka bernyanyi, namun saya gak terlalu bagus dalam menyanyi karena saya tidak ada pelatih untuk menjadi lebih baik.
+				Untuk hobby saat ini, saya sangat suka dengan namanya coding karena sesuai dengan jurusan saya dari SMK dan Kuliah.
+			</p>
+		</div>
+	</div>
+	<div class="kontak" id="kontak">
+		<div class="judul">
+			Contact
+		</div>
+		<div class="sub_judul">
+			Anda Juga Bisa Memberi Komentar
+		</div>
+		<div class="row3">
+			<div class="row-50">
+				<table>
+					<tr><td><img src="img/fb.png"></td><td><a href="https://facebook.com/berkat.jaya.nias" target="_blank">Berkat jaya Harefa</a></td></tr>
+					<tr><td><img src="img/wa.png"></td><td><a href="">0822-7397-9952</a></td></tr>
+					<tr><td><img src="img/line.png"></td><td><a href="">@berkatharefa9</a></td></tr>
+					<tr><td><img src="img/twiter.png"></td><td><a href="">@berkat99</a></td></tr>
+					<tr><td><img src="img/call.png"></td><td><a href="">0822-7397-9952</a></td></tr>
+					<tr><td><img src="img/location.png"></td><td><a href="https://www.google.co.id/maps/place/Musholla+Nurul+Iman/@3.6186045,98.7018915,17z/data=!3m1!4b1!4m5!3m4!1s0x30313180276b63f9:0x545d254861b6d561!8m2!3d3.6185991!4d98.7040802?hl=id" target="_blank">Medan, indonesia</a></td></tr>
+				</table>
+			</div>
+			<div class="row-right">
+				<form action="" target="_blank">
+					<div class="komen">
+						<div class="half">
+							<input class="inp-50" placeholder="Name" required="" name="Name" type="text">
+						</div>
+						<div class="half1">
+							<input class="inp-50" placeholder="Email" required="" name="Email" type="text">
+						</div>
+					</div>
+					<input class="inp-full" placeholder="Message" required="" name="Message" type="text">
+					<br>
+					<button class="btn-right" type="submit">Kirim</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		Design By Berkat Jaya Harefa<br>
+		Medan, 2018
 	</div>
 </body>
 </html>
